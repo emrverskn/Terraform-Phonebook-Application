@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 app.config['MYSQL_DATABASE_HOST'] = os.getenv('MYSQL_DATABASE_HOST')
-app.config['MYSQL_DATABASE_USER'] = 'admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = '****'
+app.config['MYSQL_DATABASE_USER'] = 'merve'
+app.config['MYSQL_DATABASE_PASSWORD'] = '123456789'
 app.config['MYSQL_DATABASE_DB'] = 'phonebook'
 app.config['MYSQL_DATABASE_PORT'] = 3306
 
