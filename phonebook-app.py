@@ -27,7 +27,6 @@ def init_phonebook_db():
     """
     cursor.execute(phonebook_table)
 
-
 def find_persons(keyword):
     query = f"""
     SELECT * FROM phonebook WHERE name like '%{keyword.strip().lower()}%';
