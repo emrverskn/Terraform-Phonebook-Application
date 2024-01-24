@@ -38,7 +38,6 @@ def find_persons(keyword):
         persons = [{'name':'No Result', 'number':'No Result'}] 
     return persons
 
-
 def insert_person(name, number):
     query = f"""
     SELECT * FROM phonebook WHERE name like '{name.strip().lower()}';
