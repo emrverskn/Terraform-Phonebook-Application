@@ -152,7 +152,6 @@ def delete_record():
     else:
         return render_template('delete.html', show_result=False, not_valid=False, developer_name='Merve Eriskin')
 
-
 if __name__== '__main__':
     init_phonebook_db()
     app.run(host='0.0.0.0', port=80) 
